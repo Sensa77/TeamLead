@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./normalize.css" rel="stylesheet" />
+    <title>TeamLead</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__background">
+        <video
+          class="header__video"
+          width="100%"
+          preload="auto"
+          autoplay="autoplay"
+          loop="loop"
+          muted
+        >
+          <source src="./video/gipnoz.mp4" type="video/mp4" />
+          <source src="./video/gipnoz2.webm" type="video/webm" />
+        </video>
+        <div class="header__container">
+          <h1 class="header__title">LevelUp</h1>
+          <div class="header__content">
+            <img
+              class="header__img"
+              src="./img/prod.png"
+              title="Средство для повышения потенции"
+              width="150px"
+              height="190px"
+            />
+            <ul class="header__list">
+              <li class="header__item">
+                Препарат эффективен только при сексуальном возбуждении
+              </li>
+              <li class="header__item">
+                Не следует применять одновременно с другими таблетками для
+                восстановления эрекции
+              </li>
+              <li class="header__item">
+                Таблетки принимают внутрь за час до полового акта
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="button header__button">Заказать</button>
+        </div>
+      </div>
+    </header>
+    <section class="composition">
+      <div class="composition__container">
+        <ul class="composition__list composition__list--left">
+          <li class="composition__item">
+            <figure class="composition__picture composition__ginkgo">
+              <figcaption class="composition__title">
+                Экстракт Гинкго Билоба
+              </figcaption>
+            </figure>
+          </li>
+          <li class="composition__item">
+            <figure class="composition__picture composition__koleus">
+              <figcaption class="composition__title">
+                Колеус Форсколии
+              </figcaption>
+            </figure>
+          </li>
+          <li class="composition__item">
+            <figure class="composition__picture composition__krapiva">
+              <figcaption class="composition__title">
+                Крапива Двудомная
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+        <img
+          class="composition__img"
+          src="./img/prod.png"
+          width="300px"
+          height="300px"
+        />
+        <ul class="composition__list composition__list--right">
+          <li class="composition__item">
+            <figure class="composition__picture composition__gorynka">
+              <figcaption class="composition__title">
+                Экстракт Горянки
+              </figcaption>
+            </figure>
+          </li>
+          <li class="composition__item">
+            <figure class="composition__picture composition__serenoa">
+              <figcaption class="composition__title">
+                Экстракт Сереноа
+              </figcaption>
+            </figure>
+          </li>
+          <li class="composition__item">
+            <figure class="composition__picture composition__cink">
+              <figcaption class="composition__title">Цинк</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="slider">
+      <div class="review">
+        <img
+          class="review__photo"
+          src="./img/evgenii.jpg"
+          width="500px"
+          height="300px"
+        />
+        <div class="review__text">
+          <span class="review__name">Евгений</span>
+          <p class="review__description">
+            Я делюсь своим опытом. Пропил курс таблеток. Эффект накопительный,
+            нужно пропить именно курс. Но результат вас надеюсь порадует как и
+            меня. Все просто супер, жена очень довольна, да и я тоже
+          </p>
+        </div>
+      </div>
+      <div class="review">
+        <img
+          class="review__photo"
+          src="./img/tan.jpg"
+          width="500px"
+          height="300px"
+        />
+        <div class="review__text">
+          <span class="review__name">Татьяна</span>
+          <p class="review__description">
+            У мужа проблемы в интимном плане уже год наверное, все из-за работы.
+            Пропил курс по моему совету, там натуральный состав, это мне
+            понравилось.Как раз к карантину все нормализовалось, ура!
+          </p>
+        </div>
+      </div>
+      <div class="review">
+        <img
+          class="review__photo"
+          src="./img/Igor.jpg"
+          width="500px"
+          height="300px"
+        />
+        <div class="review__text">
+          <span class="review__name">Игорь</span>
+          <p class="review__description">
+            Я когда в отпуск еду, перед этим обязательно заказываю таблеточки.
+            Съешь таблеточку, и минимум сутки всегда готов. Девушки просто в
+            восторге. Lелает секс дольше и ярче.
+          </p>
+        </div>
+      </div>
+      <div class="review__arrows">
+        <button type="button" class="review__arrow review__arrow-left">
+          <svg
+            width="50"
+            height="50"
+            viewBox="0 0 12 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M11 1L1 11L11 21" stroke="#000" />
+          </svg>
+        </button>
+        <button type="button" class="review__arrow review__arrow-right">
+          <svg
+            width="50"
+            height="50"
+            viewBox="0 0 12 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M1 1L11 11L1 21" stroke="#000" />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <div class="gradient">
+      <section class="promo">
+        <div class="promo__container">
+          <img
+            class="promo__photo"
+            src="./img/doctor.png"
+            width="350px"
+            height="400px"
+          />
+          <p class="promo__description">
+            Level Up – инновационное средство для роста, которое действует
+            быстро и эффективно, гарантируя превосходный результат после
+            окончания курса. Оказывает комплексное воздействие на состояние
+            всего организма. Продукт создан на основе природных компонентов,
+            поэтому является абсолютно безопасным. Компоненты работают по
+            принципу синергии, усиливая работоспособность друг друга.
+            Задействует все зоны роста, обладает множеством преимуществ и хорошо
+            зарекомендовал себя среди покупателей.
+          </p>
+        </div>
+        <ul class="promo__list">
+          Характеристики, которые выделяют препарат из всех:
+          <li class="promo__item">Безопасное</li>
+          <li class="promo__item">Действенное</li>
+          <li class="promo__item">Недорогое</li>
+        </ul>
+        <button type="button" class="button promo__button">Заказать</button>
+      </section>
+      <section class="form">
+        <h2 class="form__title">LevelUp</h2>
+        <div class="form__timer">
+          <p class="form__timer-title"></p>
+          <span class="form__timer-mins"></span>
+          <span class="form__timer-secs"></span>
+        </div>
+        <s class="form__old-price">765 руб</s>
+        <span class="form__new-price">533 руб</span>
+        <div class="form__container">
+          <form class="form__order">
+            <label class="form__label"
+              >Ваше имя<input
+                class="form__input"
+                type="text"
+                title="Василий"
+                placeholder="Василий"
+            /></label>
+            <label class="form__label"
+              >Ваше телефон<input
+                class="form__input"
+                type="number"
+                placeholder="89184257651"
+            /></label>
+            <label class="form__label"
+              >Ваша почта<input
+                class="form__input"
+                type="email"
+                placeholder="Vasya231@mail.ru"
+            /></label>
+            <button type="button" class="form__button">Заказать</button>
+          </form>
+          <img
+            class="form__img"
+            src="./img/prod.png"
+            width="200px"
+            height="350px"
+          />
+        </div>
+      </section>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
